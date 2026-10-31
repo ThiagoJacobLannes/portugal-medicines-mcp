@@ -1,5 +1,7 @@
 # portugal-medicines-mcp
 
+<!-- mcp-name: io.github.ThiagoJacobLannes/portugal-medicines-mcp -->
+
 MCP server that helps answer **"I need medicine X in city Y. What do I do?"** in Portugal, so Claude (or any MCP client) can say whether a medicine has a reported shortage, which pharmacies are on duty or open now, and who to call.
 
 **Read-only, no key, no account.** It uses only public sources. Not affiliated with Infarmed, the SNS, SPMS, the Associação Nacional das Farmácias or farmaciasdeservico.net.
@@ -44,6 +46,16 @@ The help lines below, each with the page it was checked on.
 | Infarmed, Linha do Medicamento | **800 222 444** | Infarmed's medicines information centre (CIMI) | Contact block of [Infarmed circulars](https://www.infarmed.pt/documents/15786/12277909/Sistema+de+Pre%C3%A7os+de+Refer%C3%AAncia+-+3%C2%BA+Trimestre+de+2026+%28agosto%29/57ba41ea-aaea-1767-ad71-5afab2a50d27) (hours not stated) |
 
 ## Install
+
+**Quickest** (needs [uv](https://docs.astral.sh/uv/)): no clone needed, it runs straight from PyPI.
+
+```bash
+claude mcp add portugal-medicines -- uvx portugal-medicines-mcp
+```
+
+For Claude Desktop, use `"command": "uvx", "args": ["portugal-medicines-mcp"]`.
+
+**From source:**
 
 Requires Python 3.10+.
 
