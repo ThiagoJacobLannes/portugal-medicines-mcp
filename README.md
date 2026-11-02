@@ -2,6 +2,10 @@
 
 <!-- mcp-name: io.github.ThiagoJacobLannes/portugal-medicines-mcp -->
 
+> [!WARNING]
+> **Deprecated — use [portugal-mcp](https://github.com/ThiagoJacobLannes/portugal-mcp) instead.** This server now lives on as the `medicamentos` feature of portugal-mcp, together with IPMA weather, INE, Banco de Portugal, Parliament, public contracts and more. Install with `uvx portugal-mcp` (add `PORTUGAL_MCP_FEATURES=medicamentos` to load only this part). Tool names: `availability` → `medicine_availability`, `where_to_get_help` → `medicine_help`; `pharmacies` and `find_medicine_near` keep their names. This repository gets no further updates.
+
+
 MCP server that helps answer **"I need medicine X in city Y. What do I do?"** in Portugal, so Claude (or any MCP client) can say whether a medicine has a reported shortage, which pharmacies are on duty or open now, and who to call.
 
 **Read-only, no key, no account.** It uses only public sources. Not affiliated with Infarmed, the SNS, SPMS, the Associação Nacional das Farmácias or farmaciasdeservico.net.
