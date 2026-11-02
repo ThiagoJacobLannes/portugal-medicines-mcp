@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "portugal-medicines-mcp"
-version = "0.1.0"
-description = "MCP server for medicine shortages and pharmacies on duty in Portugal (public sources, read-only)."
+version = "0.1.1"
+description = "DEPRECATED: now part of portugal-mcp. MCP server for medicine shortages and pharmacies on duty in Portugal (public sources, read-only)."
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.10"

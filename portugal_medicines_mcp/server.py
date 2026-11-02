@@ -222,6 +222,7 @@ def where_to_get_help() -> dict[str, Any]:
 
 
 def main() -> None:
+    log.warning("portugal-medicines-mcp is deprecated and gets no more updates: use portugal-mcp instead (uvx portugal-mcp; PORTUGAL_MCP_FEATURES=medicamentos loads only this part).")
     mcp.run()
 
 
